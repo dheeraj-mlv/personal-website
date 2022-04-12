@@ -1,0 +1,110 @@
+body {
+    text-align: center;
+}
+
+.title {
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+}
+
+
+/* Set the border color to the desired color */
+
+.navbar-toggler {
+    border-color: lightgreen;
+}
+
+.navbar-title {
+    padding-left: 10rem;
+    font-size: 2.4rem;
+    text-decoration: none;
+    color: white;
+}
+
+.navbar-title:hover {
+    color: white;
+}
+
+.navbar-items {
+    padding: 1rem 2rem;
+    font-size: 1.3rem;
+}
+
+.main-heading {
+    text-align: center;
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+    padding-top: 100px;
+    font-size: 10vw;
+    letter-spacing: 0.2em;
+    cursor: pointer;
+    transition: text-shadow 1s;
+}
+
+.main-heading:hover {
+    text-shadow: 0.04em 0.04em #fc0049, 0.08em 0.08em #fe8f01, 0.12em 0.12em #fdf21f, 0.16em 0.16em #3fdf4b, 0.2em 0.2em #3462fe;
+}
+
+.descript {
+    color: white;
+    text-align: center;
+    font-size: 1.2rem;
+    letter-spacing: 0.02rem;
+    /* padding-bottom: 20rem; */
+    /* padding-bottom: 100px; */
+}
+
+.anchor-nav {
+    position: relative;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    color: #a0a0a0;
+}
+
+.anchor-nav:after {
+    content: "";
+    position: absolute;
+    background-color: #E60965;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+}
+
+.anchor-nav:hover {
+    color: #ffffff;
+}
+
+.anchor-nav:hover:after {
+    width: 100%;
+}
+
+
+/* skill set  */
+
+.grid-head {
+    font-size: 4rem;
+    margin-top: 3rem;
+    letter-spacing: 0.1rem;
+    color: #3B82F6;
+}
+
+.grid-row {
+    padding: 6rem;
+}
+
+.grid-col {
+    padding-bottom: 4rem;
+}
+
+.grid-col p {
+    font-size: 1.5rem;
+    letter-spacing: 0.04rem;
+    margin-top: 2rem;
+}
+
+
+/* time line section */
